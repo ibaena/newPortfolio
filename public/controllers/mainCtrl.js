@@ -17,3 +17,11 @@ mainCtrl.controller('showCaseCtrl', ['$scope', '$http', function($scope, $http) 
     $scope.query = title;
   };
 }]);
+
+//ABOUT CONTROLLER
+mainCtrl.controller('CarouselCtrl', ['$scope', '$http', function($scope, $http) {
+  $http.get('public/js/about.json').then(function(data) {
+    $scope.about = data.data;
+    console.log($scope.about);
+  });
+}]);

@@ -14,7 +14,7 @@ Portfolio.config(function($stateProvider, $urlRouterProvider) {
     .state('profile', {
       url: '/profile',
       templateUrl: '/views/partials/profile.html',
-      controller: 'sideNavCtrl'
+      controller: 'CarouselCtrl'
     })
     .state('showcase', {
       url: '/showcase',

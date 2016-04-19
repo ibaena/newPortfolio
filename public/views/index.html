@@ -17,6 +17,8 @@
     <link rel="stylesheet" href="bower_components/font-awesome/css/font-awesome.min.css">
     <link rel="stylesheet" href="bower_components/animate.css/animate.min.css">
     <link rel="stylesheet" href="../public/css/sidenav.css"/>
+    <link rel="stylesheet" href="../public/css/magic.css">
+    <link rel="stylesheet" href="../public/css/landing.css">
   </head>
   <body ng-controller="sideNavCtrl">
     <div id="wrapper" ng-class="{'toggled': showNav}">
@@ -29,7 +31,7 @@
         <ul class="sidebar-nav">
           <a ui-sref="home">
             <div>
-              <img src="http://placehold.it/125x125" class="img-circle" id="sidebar-Pic" alt="Circular Image">
+              <img src="/public/img/profile.jpg" class="img-circle" id="sidebar-Pic" alt="Circular Image">
             </div>
             <li class="sidebar-brand">
               <h3 id="side-name">
@@ -84,4 +86,11 @@
 </body>
 <script src="bower_components/jquery/dist/jquery.min.js"></script>
 <script src="bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+<script src="../public/js/bootquery.js"></script>
+<!-- Script to Activate the Carousel -->
+<script>
+$('.carousel').carousel({
+    interval: 5000 //changes the speed
+})
+</script>
 </html>
