@@ -1,0 +1,25 @@
+[{
+	"title": "FindaDr",
+	"description": "Full stack  web application. The purpose of the app is to deliver a app that will locate doctors based on location requested. This app will allow user profiles to be created and also implement a calendar to keep track of your visits.",
+	"technologies": ["AngularJS", "NodeJs", "Express", "MongoDb", "PassportJS", "Bcrypt", "BetterDoctor api", "Javascript", "HTML", "CSS"],
+	"url": "",
+	"image": "https://placehold.it/350x150"
+}, {
+	"title": "RU Reviewer",
+	"description": "There's a lot to do / eat / see / play at Rutgers. This app provides effective way to search for them Built with NodeJs,Javascript,HTML,CSS,Express,PassportJS,MySQL,Handlebars,Yelp api and MaterializeCSS.",
+	"technologies": ["NodeJs", "Express", "MySQL", "PassportJS", "Bcrypt", "Yelp api", "HandlebarsJS", "Javascript", "HTML", "CSS"],
+	"url": "https://protected-plains-93290.herokuapp.com/",
+	"image": "https://placehold.it/350x150"
+}, {
+	"title": "Blog Platform",
+	"description": "Blog platform built on NodeJS includes login/ registration, password encryption. Logged user can add, delete and update post. Storing data with MongoDb, and rendering with Handlebars. Also includes a scraper for pulling data from other sources.",
+	"technologies": ["NodeJs", "Express", "MongoDb", "PassportJS", "Bcrypt", "Cheerio NPM", "HandlebarsJS", "Javascript", "HTML", "CSS"],
+	"url": "https://pennilessdeveloper.herokuapp.com/",
+	"image": "https://placehold.it/350x150"
+}, {
+	"title": "MoviesJQ",
+	"description": "Front end project built with Javascript, JQuery, AJAX, HTML, CSS, MaterializeCSS and TMDB api.",
+	"technologies": ["Javascript", "HTML", "CSS", "AJAX", "TMDB api"],
+	"url": "https://moviesjq.herokuapp.com/",
+	"image": "https://placehold.it/350x150"
+}]

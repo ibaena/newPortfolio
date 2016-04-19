@@ -19,7 +19,7 @@ Portfolio.config(function($stateProvider, $urlRouterProvider) {
     .state('showcase', {
       url: '/showcase',
       templateUrl: '/views/partials/showcase.html',
-      controller: 'sideNavCtrl'
+      controller: 'showCaseCtrl'
     })
     .state('code', {
       url: '/code',

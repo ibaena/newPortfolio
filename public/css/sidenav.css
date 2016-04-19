@@ -100,7 +100,9 @@
   text-align: center;
   padding-right: 25px;
 }
-
+.portfolio-item {
+    margin-bottom: 25px;
+}
 /*Media*/
 
 @media(min-width:768px) {
