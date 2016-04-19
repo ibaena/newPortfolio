@@ -1,0 +1,27 @@
+{
+  "name": "PortfolioIvanBaena",
+  "description": "",
+  "main": "server.js",
+  "authors": [
+    "Ivan Baena"
+  ],
+  "license": "MIT",
+  "homepage": "https://github.com/ibaena/newPortfolio",
+  "moduleType": [],
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "latest",
+    "font-awesome": "latest",
+    "animate.css": "latest",
+    "angular": "latest",
+    "jquery": "^2.2.2",
+    "angular-ui-router": "^0.2.18",
+    "angular-animate": "^1.5.5"
+  }
+}
