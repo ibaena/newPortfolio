@@ -2,14 +2,86 @@
 <html ng-app="Portfolio">
   <head>
     <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
     <title></title>
     <script src="bower_components/angular/angular.min.js"></script>
     <script src="bower_components/angular-ui-router/release/angular-ui-router.min.js"></script>
     <script src="bower_components/angular-animate/angular-animate.min.js"></script>
     <script src="../public/controllers/app.js"></script>
     <script src="../public/controllers/mainCtrl.js"></script>
+    <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="bower_components/font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="bower_components/animate.css/animate.min.css">
+    <link rel="stylesheet" href="../public/css/sidenav.css"/>
   </head>
-  <body>
-    <div ui-view></div>
-  </body>
+  <body ng-controller="sideNavCtrl">
+    <div id="wrapper" ng-class="{'toggled': showNav}">
+
+      <!-- Sidebar -->
+      <a href="" class="btn btn-default" id="menu-toggle" ng-click="activeNav()">
+        <i class="fa fa-bars fa-2x" aria-hidden="true"></i>
+      </a>
+      <div id="sidebar-wrapper" ng-class="{'toggled': showNav}">
+        <ul class="sidebar-nav">
+          <a ui-sref="home">
+            <div>
+              <img src="http://placehold.it/125x125" class="img-circle" id="sidebar-Pic" alt="Circular Image">
+            </div>
+            <li class="sidebar-brand">
+              <h3 id="side-name">
+                <snall>Ivan Baena</snall>
+              </h3>
+            </a>
+          </li>
+          <li>
+            <a ui-sref="profile">
+              <span class="menu-text">About</span>
+            </i>
+          </a>
+        </li>
+        <li>
+          <a ui-sref="showcase">
+            <span class="menu-text">Showcase</span>
+          </i>
+        </a>
+      </li>
+      <li>
+        <a ui-sref="code">
+          <span class="menu-text">Languages</span>
+        </i>
+      </a>
+    </li>
+    <li>
+      <a ui-sref="message">
+        <span class="menu-text">Contact</span>
+      </i>
+    </a>
+  </li>
+  <li>
+</ul>
+</div>
+<!-- /#sidebar-wrapper -->
+
+<!-- Page Content -->
+<div id="page-content-wrapper" ng-class="{'toggled': showNav}">
+<div class="container-fluid">
+  <div class="row">
+    <div class="col-lg-12">
+      <div ui-view></div>
+    </div>
+  </div>
+</div>
+</div>
+<!-- /#page-content-wrapper -->
+
+</div>
+<!-- /#wrapper -->
+
+</body>
+<script src="bower_components/jquery/dist/jquery.min.js"></script>
+<script src="bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
 </html>
