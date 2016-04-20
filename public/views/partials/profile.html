@@ -1,22 +1,26 @@
 <!-- Page Content -->
 <div class="container-fluid">
-  <h1>{{about.full_name}}</h1>
+<div class="featurette">
+    <h1>{{about.full_name}}  <small class="pull-right">Greater New York City Area</small></h1>
+</div>
+
+
   <hr class="divider">
 
   <!-- First Featurette -->
   <div class="featurette" id="about">
-    <img class="featurette-image img-circle img-responsive pull-right profile-img" src="../public/img/mean.png">
+    <img class="featurette-image  img-responsive pull-right img-prof" src="../public/img/mean.png">
     <h2 class="featurette-heading">{{about.aim}}
       <span class="text-muted"></span>
     </h2>
-    <p class="lead">"{{about.quote}}"</p>
+    <p class="lead">{{about.aim2}}</p>
   </div>
 
   <hr class="featurette-divider">
 
   <!-- Second Featurette -->
   <div class="featurette" id="services">
-    <img class="featurette-image img-circle img-responsive pull-left" src="http://placehold.it/500x500">
+    <img class="featurette-image img-circle img-responsive pull-left img-prof" src="../public/img/rutgers.png">
     <h2 class="featurette-heading">A little about me...
       <span class="text-muted"></span>
     </h2>
@@ -27,11 +31,12 @@
 
   <!-- Third Featurette -->
   <div class="featurette" id="contact">
-    <img class="featurette-image img-circle img-responsive pull-right" src="http://placehold.it/500x500">
+    <img class="featurette-image img-circle img-responsive pull-right img-prof" src="../public/img/user.png">
     <h2 class="featurette-heading">Long Story Short!
       <span class="text-muted"></span>
     </h2>
     <p class="lead">{{about.long_bio}}</p>
+    <p class="lead">"{{about.quote}}"</p>
   </div>
 
   <hr class="featurette-divider">

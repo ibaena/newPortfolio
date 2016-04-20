@@ -13,6 +13,7 @@ mainCtrl.controller('sideNavCtrl', ['$scope', '$http', '$timeout', function($sco
 
 //SHOWCASE CONTROLLER
 mainCtrl.controller('showCaseCtrl', ['$scope', '$http', function($scope, $http) {
+  $scope.animateSmallImg = false;
   $scope.fadeInProject = false;
   $http.get('public/js/projects.json').then(function(data) {
     $scope.projects = data.data;
