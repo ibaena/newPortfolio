@@ -1,0 +1,58 @@
+[{
+  "name": "HTML5",
+  "value": "88",
+  "level": "Advanced",
+  "img": "/public/img/html5.png",
+  "review": "Responsive Web Design makes your web app look good on all devices (desktops, tablets, and phones).",
+  "fa_icon": "fa fa-cube fa-2x"
+}, {
+  "name": "CSS3",
+  "value": "78",
+  "level": "Intermediate",
+  "img": "/public/img/css3.png",
+  "review": "CSS describes how HTML elements are to be displayed on screen, and how I will make your designs and styles unique!",
+  "fa_icon": "fa fa-eye fa-2x"
+}, {
+  "name": "Javascript",
+  "value": "80",
+  "level": "Intermediate",
+  "img": "/public/img/js.png",
+  "review": "Javascript will add the user interactivity to your website that you desire!",
+  "fa_icon": "fa fa-cogs fa-2x"
+
+}, {
+  "name": "NodeJS",
+  "value": "86",
+  "level": "Intermediate",
+  "img": "/public/img/node.png",
+  "review": "Server that is very fast to fit your all websites or web apps needs.",
+  "fa_icon": "fa fa-sitemap fa-2x"
+}, {
+  "name": "AngularJS",
+  "value": "83",
+  "level": "Intermediate",
+  "img": "/public/img/angular.png",
+  "review": "Front end javascript framework that is well developed (Google), and comprehensive, fit for any sized project your looking to build.",
+  "fa_icon": "fa fa-desktop fa-2x"
+}, {
+  "name": "Jquery",
+  "value": "78",
+  "level": "Intermediate",
+  "img": "/public/img/jquery.png",
+  "review": "Javascript libarary that provides ease of use, a large library, and a strong opensource community",
+  "fa_icon": "fa fa-magic fa-2x"
+}, {
+  "name": "MongoDb",
+  "value": "78",
+  "level": "Intermediate",
+  "img": "/public/img/mongodb.png",
+  "review": "NoSQL database development experience (MEAN).",
+  "fa_icon": "fa fa-database fa-2x"
+}, {
+  "name": "MySQL",
+  "value": "78",
+  "level": "Intermediate",
+  "img": "/public/img/mysql.png",
+  "review": "MySQL database development experience",
+  "fa_icon": "fa fa-table fa-2x"
+}]

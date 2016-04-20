@@ -1,7 +1,7 @@
 var mainCtrl = angular.module('mainCtrl', ['ngAnimate']);
 
 //SIDENAV CONTROLLER TO HANDLE LOGIC FOR TOGGLING VIEW
-mainCtrl.controller('sideNavCtrl', ['$scope', '$http','$timeout', function($scope, $http, $timeout) {
+mainCtrl.controller('sideNavCtrl', ['$scope', '$http', '$timeout', function($scope, $http, $timeout) {
   $scope.fadeInContent = false;
   $scope.fadeOutContent = true;
   $scope.showNav = false;
@@ -29,4 +29,14 @@ mainCtrl.controller('CarouselCtrl', ['$scope', '$http', function($scope, $http) 
     $scope.about = data.data;
     console.log($scope.about);
   });
+}]);
+
+//CODING CONTROLLER
+mainCtrl.controller('CodingCtrl', ['$scope', '$http', function($scope, $http) {
+  $http.get('public/js/skills.json').then(function(data) {
+    $scope.coding = data.data;
+    console.log($scope.coding);
+
+  });
+
 }]);

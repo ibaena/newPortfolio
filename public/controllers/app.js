@@ -24,7 +24,7 @@ Portfolio.config(function($stateProvider, $urlRouterProvider) {
     .state('code', {
       url: '/code',
       templateUrl: '/views/partials/code.html',
-      controller: 'sideNavCtrl'
+      controller: 'CodingCtrl'
     })
     .state('message', {
       url: '/message',
