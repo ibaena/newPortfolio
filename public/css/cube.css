@@ -1,0 +1,20 @@
+/* Vendor prefixes removed for readability */
+.cube .front {
+	/* No X/Y rotation needed since the front is */
+	/* already facing forward. */
+}
+.cube .back {
+	transform: rotateX( -180deg );
+}
+.cube .right {
+	transform: rotateY( 90deg );
+}
+.cube .left {
+	transform: rotateY( -90deg );
+}
+.cube .top {
+	transform: rotateX( 90deg );
+}
+.cube .bottom {
+	transform: rotateX( -90deg );
+}

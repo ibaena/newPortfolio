@@ -1,35 +1,90 @@
-<div id="Carousel" class="carousel slide">
-  <ol class="carousel-indicators">
-    <li data-target="Carousel" data-slide-to="0" class="active"></li>
-    <li data-target="Carousel" data-slide-to="1"></li>
-    <li data-target="Carousel" data-slide-to="2"></li>
-  </ol>
-  <div class="carousel-inner">
-    <div class="item active">
-      <img src="../public/img/headlineSlide.jpg" class="img-responsive">
-      <div class="carousel-caption" id="intro-slide">
-        <h2>{{about.full_name}}</h2>
-          <p>{{about.headline}}<p>
-        <h3>"{{about.aim}}"</h3>
+<div class="container-fluid">
+  <div id="Carousel" class="carousel slide carousel-fade">
+    <ol class="carousel-indicators">
+      <li data-target="Carousel" data-slide-to="0" class="active"></li>
+      <li data-target="Carousel" data-slide-to="1"></li>
+      <li data-target="Carousel" data-slide-to="2"></li>
+    </ol>
+    <div class="carousel-inner">
+
+      <div class="item active">
+        <img src="../public/img/headlineSlide.jpg" class="img-responsive">
+        <div class="carousel-caption smMargin col-sm-12">
+          <div class="sliderTitle">
+            <p class="aboutText">
+              {{about.full_name}}
+            </p>
+            <p id="tags">
+              {{about.headline}}
+              <p>
+                <hr/>
+              </div>
+              <p class="aboutText">"{{about.aim}}"
+              </p>
+            </div>
+          </div>
+
+          <div class="item">
+            <img src="../public/img/bioSlide.jpg" class="img-responsive">
+            <div class="carousel-caption lgMargin">
+              <div class="sliderTitle">
+                <p class="aboutText">
+                  {{about.full_name}}
+                </p>
+                <hr/>
+              </div>
+              <p class="aboutText">
+                {{about.bio_short}}
+              </p>
+            </div>
+          </div>
+
+          <div class="item">
+            <img src="../public/img/hobbySlide.jpg" class="img-responsive">
+            <div class="carousel-caption smMargin">
+              <div class="sliderTitle">
+                <p class="aboutText">
+                  {{about.full_name}}
+                </p>
+                <hr/>
+              </div>
+              <p class="aboutText">
+                Things I enjoy!
+              </p>
+              <ul ng-repeat="item in about.interest" id="interests">
+                <div class="col-md-6">
+                  <li class="interestText">
+                    {{item}}
+                  </li>
+                </div>
+              </ul>
+            </div>
+          </div>
+
+          <div class="item">
+            <img src="../public/img/longBioSlide.jpg" class="img-responsive">
+            <div class="carousel-caption smMargin">
+              <div class="sliderTitle">
+                <p class="aboutText">
+                  {{about.full_name}}
+                </p>
+                <hr/>
+              </div>
+              <h4>
+                <small id="quote">"{{about.quote}}"</small>
+              </h4>
+              <p class="interestText">
+                {{about.long_bio}}
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <span class="left carousel-control" data-target="#Carousel" data-slide="prev">
+          <span class="glyphicon glyphicon-chevron-left"></span>
+        </span>
+        <span class="right carousel-control" data-target="#Carousel" data-slide="next">
+          <span class="glyphicon glyphicon-chevron-right"></span>
+        </span>
       </div>
     </div>
-    <div class="item">
-      <img src="../public/img/bioSlide.jpg" class="img-responsive">
-      <div class="carousel-caption" id="intro-slide">
-        <h2>{{about.bio_short}}</h2>
-      </div>
-    </div>
-    <div class="item">
-      <img src="../public/img/hobbySlide.jpg" class="img-responsive">
-    </div>
-    <div class="item">
-      <img src="../public/img/longBioSlide.jpg" class="img-responsive">
-    </div>
-  </div>
-  <span class="left carousel-control" data-target="#Carousel" data-slide="prev">
-    <span class="glyphicon glyphicon-chevron-left"></span>
-  </span>
-  <span class="right carousel-control" data-target="#Carousel" data-slide="next">
-    <span class="glyphicon glyphicon-chevron-right"></span>
-  </span>
-</div>
