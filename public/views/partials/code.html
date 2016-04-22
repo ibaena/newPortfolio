@@ -1,28 +1,12 @@
 <div class="container-fluid">
-  <div class="wrap">
-    <div class="cube">
-      <div class="front">
-        <img class="cubeIcons responsive-img" src="../public/img/cube/angular.png"/>
-      </div>
-      <div class="back">
-        <img class="cubeIcons responsive-img" src="../public/img/cube/html5.png"/>
-      </div>
-      <div class="top">
-        <img class="cubeIcons responsive-img" src="../public/img/cube/css3.png"/>
-      </div>
-      <div class="bottom">
-        <img class="cubeIcons responsive-img" src="../public/img/cube/js.png"/>
-        <img class="cubeIcons responsive-img" src="../public/img/cube/jquery.png"/>
-      </div>
-      <div class="left-side">
-        <img class="cubeIcons responsive-img" src="../public/img/cube/mongodb.png"/>
-        <img class="cubeIcons responsive-img" src="../public/img/cube/mysql.png"/>
-      </div>
-      <div class="right-side">
-        <img class="cubeIcons responsive-img" src="../public/img/cube/node.png"/>
+  <div class="row">
+    <div class="col-lg-3 col-xs-4" ng-repeat="skill in coding">
+      <div class="tile" class="btn btn-default">
+        <p>
+          {{skill.name}}
+        </p>
+        <img class="coding-languages img-responsive" ng-src="{{skill.img}}" alt=""/>
       </div>
     </div>
   </div>
-
-  <div class="col-lg-12 col-xs-12"></div>
 </div>

@@ -2,21 +2,21 @@
   "name": "HTML5",
   "value": "88",
   "level": "Advanced",
-  "img": "/public/img/html5.png",
+  "img": "/public/img/cube/html5.png",
   "review": "Responsive Web Design makes your web app look good on all devices (desktops, tablets, and phones).",
   "fa_icon": "fa fa-cube fa-2x"
 }, {
   "name": "CSS3",
   "value": "78",
   "level": "Intermediate",
-  "img": "/public/img/css3.png",
+  "img": "/public/img/cube/css3.png",
   "review": "CSS describes how HTML elements are to be displayed on screen, and how I will make your designs and styles unique!",
   "fa_icon": "fa fa-eye fa-2x"
 }, {
   "name": "Javascript",
   "value": "80",
   "level": "Intermediate",
-  "img": "/public/img/js.png",
+  "img": "/public/img/cube/js.png",
   "review": "Javascript will add the user interactivity to your website that you desire!",
   "fa_icon": "fa fa-cogs fa-2x"
 
@@ -24,35 +24,51 @@
   "name": "NodeJS",
   "value": "86",
   "level": "Intermediate",
-  "img": "/public/img/node.png",
+  "img": "/public/img/cube/node.png",
   "review": "Server that is very fast to fit your all websites or web apps needs.",
   "fa_icon": "fa fa-sitemap fa-2x"
 }, {
   "name": "AngularJS",
   "value": "83",
   "level": "Intermediate",
-  "img": "/public/img/angular.png",
+  "img": "/public/img/cube/angular.png",
   "review": "Front end javascript framework that is well developed (Google), and comprehensive, fit for any sized project your looking to build.",
   "fa_icon": "fa fa-desktop fa-2x"
 }, {
   "name": "Jquery",
   "value": "78",
   "level": "Intermediate",
-  "img": "/public/img/jquery.png",
+  "img": "/public/img/cube/jquery.png",
   "review": "Javascript libarary that provides ease of use, a large library, and a strong opensource community",
   "fa_icon": "fa fa-magic fa-2x"
 }, {
   "name": "MongoDb",
   "value": "78",
   "level": "Intermediate",
-  "img": "/public/img/mongodb.png",
-  "review": "NoSQL database development experience (MEAN).",
+  "img": "/public/img/cube/mongodb.png",
+  "review": "NoSQL database using JSON like syntax to resultng in easier coding.",
   "fa_icon": "fa fa-database fa-2x"
 }, {
   "name": "MySQL",
   "value": "78",
   "level": "Intermediate",
-  "img": "/public/img/mysql.png",
-  "review": "MySQL database development experience",
+  "img": "/public/img/cube/mysql.png",
+  "review": "While it may not be perfect, it is considered a proven technology in the industry.",
   "fa_icon": "fa fa-table fa-2x"
+}, {
+  "name": "Github",
+  "img": "/public/img/cube/git.png",
+  "review": "GitHub is a web-based Git repository hosting service. It offers all of the distributed revision control and source code management (SCM) functionality of Git as well as adding its own features. Unlike Git, which is strictly a command-line tool. GitHub provides a Web-based graphical interface and desktop as well as mobile integration. It also provides access control and several collaboration features for every project."
+}, {
+  "name": "Ubuntu",
+  "img": "/public/img/cube/ubuntu.png",
+  "review": "Ubuntu is used by thousands of development teams around the world because of its versatility, reliability, constantly updated features, and extensive developer libraries."
+}, {
+  "name": "HandlebarsJS",
+  "img": "/public/img/cube/handlebars.png",
+  "review": "Handlebars.js is a sweet javascript library for building clean logicless templates based on the Mustache Templating Language."
+}, {
+  "name": "Terminal",
+  "img": "/public/img/cube/cmd.png",
+  "review": "Why do I use command line? I use the command line for speed creating and editing folders/files. Also its looks awesome!"
 }]

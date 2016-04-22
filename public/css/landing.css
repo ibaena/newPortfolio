@@ -117,3 +117,14 @@ footer {
 .intro-message {
   padding-top: 100px;
 }
+
+/*Languages*/
+
+.coding-languages{
+  height: 160px;
+  width: auto;
+    text-align: center;
+}
+.tile{
+
+}
