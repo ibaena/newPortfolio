@@ -1,11 +1,13 @@
 <div class="container-fluid">
   <div class="row">
-    <div class="col-lg-3 col-xs-4" ng-repeat="skill in coding">
-      <div class="tile" class="btn btn-default">
-        <p>
-          {{skill.name}}
-        </p>
-        <img class="coding-languages img-responsive" ng-src="{{skill.img}}" alt=""/>
+    <div class="col-lg-3 col-md-4 col-xs-6" ng-repeat="skill in coding" ng-mouseover="animateCoding = true" ng-mouseleave="animateCoding = false">
+      <div ng-class="{'animated pulse': animateCoding}" class="tile">
+        <a class="skill-link" href="">
+          <p>
+            {{skill.name}}
+          </p>
+          <img class="coding-languages img-responsive" ng-src="{{skill.img}}" alt=""/>
+        </a>
       </div>
     </div>
   </div>

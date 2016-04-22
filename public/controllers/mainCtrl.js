@@ -39,5 +39,6 @@ mainCtrl.controller('CodingCtrl', ['$scope', '$http', function($scope, $http) {
     console.log($scope.coding);
 
   });
-
+  $scope.animateCoding =  false;
+  
 }]);

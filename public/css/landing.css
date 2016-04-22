@@ -120,11 +120,17 @@ footer {
 
 /*Languages*/
 
-.coding-languages{
-  height: 160px;
+.coding-languages {
+  height: 120px;
   width: auto;
-    text-align: center;
+  text-align: center;
+  display: block;
+  margin: auto;
 }
-.tile{
-
+.tile {
+  text-align: center;
+  margin:7px;
+}
+a.skill-link{
+  text-decoration: none;
 }
