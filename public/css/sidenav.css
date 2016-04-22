@@ -92,8 +92,8 @@
   width: 125px;
 }
 #menu-toggle {
-  float: left;
   position: fixed;
+  float: right;
   z-index: 999;
   opacity: 0.8;
 }
@@ -195,7 +195,7 @@ a.first, a.first:visited, a.first:hover, a.first:active {
 .sm-project-pic {
   height: 200px;
   width: 500px;
-  
+
 }
 .sm-project-pic:hover {
 opacity: .3;
