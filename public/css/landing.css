@@ -129,12 +129,13 @@ footer {
   text-align: center;
   display: block;
   margin: auto;
+
 }
 .tile {
   text-align: center;
   margin:30px;
 }
-.skill-link{
+a.skill-link{
   text-decoration: none;
 }
 .lgCodingImg{
@@ -146,4 +147,8 @@ footer {
 .skillCaption{
   text-align: center;
   font-size: 24px;
+}
+#exit{
+  font-size: 40px;
+  text-decoration: none;
 }

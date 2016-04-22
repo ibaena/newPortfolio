@@ -39,15 +39,16 @@ mainCtrl.controller('CodingCtrl', ['$scope', '$http', function($scope, $http) {
     console.log($scope.coding);
 
   });
-  $scope.animateCoding =  false;
+  $scope.animateCoding = false;
   $scope.reveal = false;
-  $scope.revealCard = function($index){
-    $scope.codingArray = $scope.coding[$index];
-    console.log($scope.codingArray );
+  $scope.revealAnimate = true;
+  $scope.revealCard = function($index) {
     $scope.reveal = !$scope.reveal;
+    $scope.codingArray = $scope.coding[$index];
     $scope.cardPicked = $scope.codingArray;
   };
-  $scope.revertCard = function(){
+  $scope.animateFade = false;
+  $scope.revertCard = function() {
     $scope.cardPicked = "";
     $scope.reveal = !$scope.reveal;
   };

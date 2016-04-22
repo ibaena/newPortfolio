@@ -1,23 +1,34 @@
 <div class="container-fluid">
+  <h2>My Toolbelt</h2>
   <div class="row" ng-hide="reveal">
-    <div class="col-lg-3 col-md-4 col-xs-6" ng-repeat="skill in coding | filter: cardPicked" ng-mouseover="animateCoding = true" ng-mouseleave="animateCoding = false">
-      <div ng-class="{'animated pulse': animateCoding, 'animated rubberBand':reveal}" class="tile">
+    <div class="col-lg-3 col-md-4 col-xs-12" ng-repeat="skill in coding" ng-class="{'animated fadeIn': revealAnimate}">
+      <div ng-class="{'animated pulse': animateCoding}" class="tile" ng-mouseover="animateCoding = true" ng-mouseleave="animateCoding = false">
         <a class="skill-link" href="" ng-click="revealCard($index)">
-          <img class="codingLanguages img-responsive" ng-src="{{skill.img}}" alt=""/>
+          <img class="codingLanguages img-responsive" src="{{skill.img}}" alt="" />
+          <div class="skillCaption">
+            <p class="hidden-xs-up">
+              {{skill.name}}
+            </p>
+          </div>
         </a>
       </div>
     </div>
   </div>
   <!--SINGLE SKILLS DISPLAY-->
   <div class="row" ng-show="reveal">
-    <div class="col-lg-8 col-lg-offset-2 col-xs-12" ng-repeat="skill in coding | filter: cardPicked" ng-class="{'animated zoomIn': reveal}">
-      <div class="big-card">
-        <a href="" ng-click="revertCard()" class="pull-right">
+    <div class="col-lg-8 col-lg-offset-2 col-xs-12" ng-repeat="skill in coding | filter: cardPicked">
+      <div class="big-card"  ng-class="{'animated zoomIn': reveal}">
+        <a href="" ng-click="revertCard()" class="pull-right" id="exit">
           <span>x</span>
         </a>
         <img src="{{skill.img}}" class="lgCodingImg img-responsive" alt="{{skill.name}} logo"/>
         <div class="skillCaption">
-          {{skill.review}}
+          <p class="hidden-xs-up">
+            {{skill.name}}
+          </p>
+          <p>
+            {{skill.review}}
+          </p>
         </div>
       </div>
     </div>
