@@ -117,10 +117,13 @@ footer {
 .intro-message {
   padding-top: 100px;
 }
+.intro-social-buttons {
+  padding-top: 20px;
+}
 
 /*Languages*/
 
-.coding-languages {
+.codingLanguages {
   height: 120px;
   width: auto;
   text-align: center;
@@ -129,8 +132,18 @@ footer {
 }
 .tile {
   text-align: center;
-  margin:7px;
+  margin:30px;
 }
-a.skill-link{
+.skill-link{
   text-decoration: none;
+}
+.lgCodingImg{
+  height: 300px;
+  width: auto;
+  display: block;
+  margin: auto;
+}
+.skillCaption{
+  text-align: center;
+  font-size: 24px;
 }

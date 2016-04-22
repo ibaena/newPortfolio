@@ -1,13 +1,24 @@
 <div class="container-fluid">
-  <div class="row">
-    <div class="col-lg-3 col-md-4 col-xs-6" ng-repeat="skill in coding" ng-mouseover="animateCoding = true" ng-mouseleave="animateCoding = false">
-      <div ng-class="{'animated pulse': animateCoding}" class="tile">
-        <a class="skill-link" href="">
-          <p>
-            {{skill.name}}
-          </p>
-          <img class="coding-languages img-responsive" ng-src="{{skill.img}}" alt=""/>
+  <div class="row" ng-hide="reveal">
+    <div class="col-lg-3 col-md-4 col-xs-6" ng-repeat="skill in coding | filter: cardPicked" ng-mouseover="animateCoding = true" ng-mouseleave="animateCoding = false">
+      <div ng-class="{'animated pulse': animateCoding, 'animated rubberBand':reveal}" class="tile">
+        <a class="skill-link" href="" ng-click="revealCard($index)">
+          <img class="codingLanguages img-responsive" ng-src="{{skill.img}}" alt=""/>
         </a>
+      </div>
+    </div>
+  </div>
+  <!--SINGLE SKILLS DISPLAY-->
+  <div class="row" ng-show="reveal">
+    <div class="col-lg-8 col-lg-offset-2 col-xs-12" ng-repeat="skill in coding | filter: cardPicked" ng-class="{'animated zoomIn': reveal}">
+      <div class="big-card">
+        <a href="" ng-click="revertCard()" class="pull-right">
+          <span>x</span>
+        </a>
+        <img src="{{skill.img}}" class="lgCodingImg img-responsive" alt="{{skill.name}} logo"/>
+        <div class="skillCaption">
+          {{skill.review}}
+        </div>
       </div>
     </div>
   </div>
