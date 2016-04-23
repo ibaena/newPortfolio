@@ -2,7 +2,7 @@
   <h2>My Toolbelt</h2>
   <div class="row" ng-hide="reveal">
     <div class="col-lg-3 col-md-4 col-xs-12" ng-repeat="skill in coding" ng-class="{'animated fadeIn': revealAnimate}">
-      <div ng-class="{'animated pulse': animateCoding}" class="tile" ng-mouseover="animateCoding = true" ng-mouseleave="animateCoding = false">
+      <div ng-class="{'animated infinite pulse': animateCoding}" class="tile" ng-mouseover="animateCoding = true" ng-mouseleave="animateCoding = false">
         <a class="skill-link" href="" ng-click="revealCard($index)">
           <img class="codingLanguages img-responsive" src="{{skill.img}}" alt="" />
           <div class="skillCaption">
