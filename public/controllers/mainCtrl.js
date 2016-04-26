@@ -4,7 +4,7 @@ var mainCtrl = angular.module('mainCtrl', ['ngAnimate']);
 mainCtrl.controller('sideNavCtrl', ['$scope', '$http', '$timeout', function($scope, $http, $timeout) {
   $scope.fadeInContent = false;
   $scope.fadeOutContent = true;
-  $scope.showNav = true;
+  $scope.showNav = false;
   $scope.activeNav = function() {
     $scope.showNav = !$scope.showNav;
     $scope.fadeInContent = !$scope.fadeInContent;
