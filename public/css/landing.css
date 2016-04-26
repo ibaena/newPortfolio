@@ -153,7 +153,14 @@ a.skill-link {
 }
 
 /*CONTACT OR FRONT TYPEDJS*/
-p.tagline{
+p.taglineMobile {
+  color: lime;
+  word-wrap: break-word;
+  font-size: 18px;
+  margin: 10px 0 0 10px;
+
+}
+p.tagline {
   color: lime;
   word-wrap: break-word;
   font-size: 18px;
@@ -163,62 +170,87 @@ p.tagline{
   width: 60em;
   animation: type 2s steps(70, start) forwards;
 }
-
-p.tagline:nth-child(2){
+p.tagline:nth-child(2) {
   animation: type2 3s steps(70, start) forwards;
 }
-p.tagline:nth-child(3){
+p.tagline:nth-child(3) {
   animation: type3 5s steps(70, start) forwards;
 }
-p.tagline:nth-child(4){
+p.tagline:nth-child(4) {
   animation: type4 8s steps(70, end) forwards;
 }
-p.tagline:nth-child(5){
+p.tagline:nth-child(5) {
   animation: type5 16s steps(70, start) forwards;
 }
-p.tagline:nth-child(6){
+p.tagline:nth-child(6) {
   animation: type6 26s steps(70, start) forwards;
 }
-
-#center-skills{
+#center-skills {
   text-align: center;
 }
-
-
-@keyframes type{
-  from { width: 0; }
+@keyframes type {
+  from {
+    width: 0;
+  }
 }
-
-@keyframes type2{
-  0%{width: 0;}
-  50%{width: 0;}
-  100%{ width: 100; }
+@keyframes type2 {
+  0% {
+    width: 0;
+  }
+  50% {
+    width: 0;
+  }
+  100% {
+    width: 100;
+  }
 }
-
-@keyframes type3{
-  0%{width: 0;}
-  50%{width: 0;}
-  100%{ width: 100; }
+@keyframes type3 {
+  0% {
+    width: 0;
+  }
+  50% {
+    width: 0;
+  }
+  100% {
+    width: 100;
+  }
 }
-@keyframes type4{
-  0%{width: 0;}
-  50%{width: 0;}
-  100%{ width: 100; }
+@keyframes type4 {
+  0% {
+    width: 0;
+  }
+  50% {
+    width: 0;
+  }
+  100% {
+    width: 100;
+  }
 }
-@keyframes type5{
-  0%{width: 0;}
-  50%{width: 0;}
-  100%{ width: 100; }
+@keyframes type5 {
+  0% {
+    width: 0;
+  }
+  50% {
+    width: 0;
+  }
+  100% {
+    width: 100;
+  }
 }
-@keyframes type6{
-  0%{width: 0;}
-  50%{width: 0;}
-  100%{ width: 100; }
+@keyframes type6 {
+  0% {
+    width: 0;
+  }
+  50% {
+    width: 0;
+  }
+  100% {
+    width: 100;
+  }
 }
-
-
-#matrix{
+#matrix {
   background-color: black;
   height: 600px;
-width: 100%;
+  width: 100%;
+
 }
