@@ -46,7 +46,7 @@
         <hr class="featurette-divider">
     </div>
 
-    <div class="col-sm-3 col-xs-6" ng-repeat="project in projects" ng-mouseover="animateSmallImg = true" ng-mouseleave="animateSmallImg = false" ng-class="{'animated pulse':animateSmallImg}">
+    <div class="col-sm-3 col-xs-6" ng-repeat="project in projects" ng-mouseover="animateSmallImg = true" ng-mouseleave="animateSmallImg = false" ng-class="{'animated pulse infinite':animateSmallImg}">
       <a href="" class="first after" ng-click="showLanguage(project.title)">
         {{project.title}}
         <img class="img-responsive portfolio-item sm-project-pic" src="{{project.image}}" alt="">
