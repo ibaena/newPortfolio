@@ -9,7 +9,7 @@ Portfolio.config(function($stateProvider, $urlRouterProvider) {
     .state('home', {
       url: '/',
       templateUrl: '/views/partials/home.html',
-      controller: 'sideNavCtrl'
+      controller: 'landingCtrl'
     })
     .state('profile', {
       url: '/profile',
@@ -25,10 +25,5 @@ Portfolio.config(function($stateProvider, $urlRouterProvider) {
       url: '/code',
       templateUrl: '/views/partials/code.html',
       controller: 'CodingCtrl'
-    })
-    .state('message', {
-      url: '/message',
-      templateUrl: '/views/partials/message.html',
-      controller: 'sideNavCtrl'
     });
 });

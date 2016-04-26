@@ -4,7 +4,7 @@ var mainCtrl = angular.module('mainCtrl', ['ngAnimate']);
 mainCtrl.controller('sideNavCtrl', ['$scope', '$http', '$timeout', function($scope, $http, $timeout) {
   $scope.fadeInContent = false;
   $scope.fadeOutContent = true;
-  $scope.showNav = false;
+  $scope.showNav = true;
   $scope.activeNav = function() {
     $scope.showNav = !$scope.showNav;
     $scope.fadeInContent = !$scope.fadeInContent;
@@ -52,5 +52,13 @@ mainCtrl.controller('CodingCtrl', ['$scope', '$http', function($scope, $http) {
     $scope.cardPicked = "";
     $scope.reveal = !$scope.reveal;
   };
+}]);
 
+//LANDING CONTROLLER
+mainCtrl.controller('landingCtrl', ['$scope', '$http','$timeout', function($scope, $http, $timeout) {
+  $timeout(function() {
+    $scope.ghost = 'HEllO IVAN';
+  }, 2500).then(function() {
+
+  });
 }]);

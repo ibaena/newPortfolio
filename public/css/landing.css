@@ -129,26 +129,90 @@ footer {
   text-align: center;
   display: block;
   margin: auto;
-
 }
 .tile {
   text-align: center;
-  margin:30px;
+  margin: 30px;
 }
-a.skill-link{
+a.skill-link {
   text-decoration: none;
 }
-.lgCodingImg{
+.lgCodingImg {
   height: 300px;
   width: auto;
   display: block;
   margin: auto;
 }
-.skillCaption{
+.skillCaption {
   text-align: center;
   font-size: 24px;
 }
-#exit{
+#exit {
   font-size: 40px;
   text-decoration: none;
+}
+
+/*CONTACT OR FRONT TYPEDJS*/
+p.tagline{
+  color: lime;
+  font-size: 20px;
+  margin: 10px 0 0 10px;
+  white-space: nowrap;
+  overflow: hidden;
+  width: 60em;
+  animation: type 2s steps(70, start) forwards;
+}
+
+p.tagline:nth-child(2){
+  animation: type2 3s steps(70, start) forwards;
+}
+p.tagline:nth-child(3){
+  animation: type3 5s steps(70, start) forwards;
+}
+p.tagline:nth-child(4){
+  animation: type4 8s steps(70, end) forwards;
+}
+p.tagline:nth-child(5){
+  animation: type5 14s steps(70, start) forwards;
+}
+p.tagline:nth-child(6){
+  animation: type6 22s steps(70, start) forwards;
+}
+
+
+@keyframes type{
+  from { width: 0; }
+}
+
+@keyframes type2{
+  0%{width: 0;}
+  50%{width: 0;}
+  100%{ width: 100; }
+}
+
+@keyframes type3{
+  0%{width: 0;}
+  50%{width: 0;}
+  100%{ width: 100; }
+}
+@keyframes type4{
+  0%{width: 0;}
+  50%{width: 0;}
+  100%{ width: 100; }
+}
+@keyframes type5{
+  0%{width: 0;}
+  50%{width: 0;}
+  100%{ width: 100; }
+}
+@keyframes type6{
+  0%{width: 0;}
+  50%{width: 0;}
+  100%{ width: 100; }
+}
+
+
+#matrix{
+  background-color: black;
+  height: 600px;
 }
