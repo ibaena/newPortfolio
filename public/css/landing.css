@@ -155,7 +155,8 @@ a.skill-link {
 /*CONTACT OR FRONT TYPEDJS*/
 p.tagline{
   color: lime;
-  font-size: 20px;
+  word-wrap: break-word;
+  font-size: 18px;
   margin: 10px 0 0 10px;
   white-space: nowrap;
   overflow: hidden;
@@ -173,10 +174,14 @@ p.tagline:nth-child(4){
   animation: type4 8s steps(70, end) forwards;
 }
 p.tagline:nth-child(5){
-  animation: type5 14s steps(70, start) forwards;
+  animation: type5 16s steps(70, start) forwards;
 }
 p.tagline:nth-child(6){
-  animation: type6 22s steps(70, start) forwards;
+  animation: type6 26s steps(70, start) forwards;
+}
+
+#center-skills{
+  text-align: center;
 }
 
 
@@ -215,4 +220,5 @@ p.tagline:nth-child(6){
 #matrix{
   background-color: black;
   height: 600px;
+width: 100%;
 }
