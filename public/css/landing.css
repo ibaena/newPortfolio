@@ -254,3 +254,12 @@ p.tagline:nth-child(6) {
   width: 100%;
 
 }
+
+.email-hmpg{
+  text-decoration: none;
+  color:lime;
+}
+.email-hmpg:hover{
+  background-color: white;
+  color: black;
+}
