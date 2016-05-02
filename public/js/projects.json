@@ -1,29 +1,29 @@
 [{
-	"title": "FindaDr",
-	"description": "Full stack  web application. The purpose of the app is to deliver a app that will locate doctors based on location requested. This app will allow user profiles to be created and also implement a calendar to keep track of your visits.",
-	"technologies": ["AngularJS", "NodeJs", "Express", "MongoDb", "PassportJS", "Bcrypt", "BetterDoctor api", "Javascript", "HTML", "CSS"],
-	"url": "https://cims-health.herokuapp.com/#/",
-	"image": "/public/img/doctor.jpg",
-	"github": "https://github.com/Mark-A-A/CIMS"
+  "title": "Recipe Catalog",
+  "description": "A Recipe web app built with Meteor, NodeJS, Blaze, SpaceBars, and MongoDb. Users can register and set up an account. Once there users can begin creating, updating, and deleting there recipes! Users can also use these recipes as a way to plan meals and create weekly shopping list for themselves!",
+  "technologies": ["Meteor", "NodeJS", "Stylus", "Blaze", "SpaceBars", "Javascript", "HTML", "CSS"],
+  "url": "https://ib-recipe.herokuapp.com/",
+  "image": "/public/img/catalog.png",
+  "github": "https://github.com/ibaena/catalog"
 }, {
-	"title": "RU Reviewer",
-	"description": "There's a lot to do / eat / see / play at Rutgers. This app provides effective way to search for them. Built with NodeJs and templated with HandlebarsJS",
-	"technologies": ["NodeJs", "Express", "MySQL", "PassportJS", "Bcrypt", "Yelp api", "HandlebarsJS", "Javascript", "HTML", "CSS"],
-	"url": "https://protected-plains-93290.herokuapp.com/",
-	"image": "/public/img/reviewer.png",
-	"github": "https://github.com/moriz23/rutgers_virtual_flyers"
+  "title": "FindaDr",
+  "description": "Full stack  web application. The purpose of the app is to deliver a app that will locate doctors based on location requested. This app will allow user profiles to be created and also implement a calendar to keep track of your visits.",
+  "technologies": ["AngularJS", "NodeJs", "Express", "MongoDb", "PassportJS", "Bcrypt", "BetterDoctor api", "Javascript", "HTML", "CSS"],
+  "url": "https://cims-health.herokuapp.com/#/",
+  "image": "/public/img/doctor.jpg",
+  "github": "https://github.com/Mark-A-A/CIMS"
 }, {
-	"title": "Blog Platform",
-	"description": "Blog platform built on NodeJS includes login/ registration, password encryption. Logged user can add, delete and update post. Storing data with MongoDb, and rendering with Handlebars. Also includes a scraper for pulling data from other sources.",
-	"technologies": ["NodeJs", "Express", "MongoDb", "PassportJS", "Bcrypt", "Cheerio NPM", "HandlebarsJS", "Javascript", "HTML", "CSS"],
-	"url": "https://pennilessdeveloper.herokuapp.com/",
-	"image": "/public/img/blog.png",
-	"github": "https://github.com/ibaena/blog"
+  "title": "Blog Platform",
+  "description": "Blog platform built on NodeJS includes login/ registration, password encryption. Logged user can add, delete and update post. Storing data with MongoDb, and rendering with Handlebars. Also includes a scraper for pulling data from other sources.",
+  "technologies": ["NodeJs", "Express", "MongoDb", "PassportJS", "Bcrypt", "Cheerio NPM", "HandlebarsJS", "Javascript", "HTML", "CSS"],
+  "url": "https://pennilessdeveloper.herokuapp.com/",
+  "image": "/public/img/blog.png",
+  "github": "https://github.com/ibaena/blog"
 }, {
-	"title": "MoviesJQ",
-	"description": "Front end project built with Javascript, JQuery, AJAX, HTML, CSS, MaterializeCSS and TMDB api.",
-	"technologies": ["Javascript", "HTML", "CSS", "AJAX", "TMDB api"],
-	"url": "https://moviesjq.herokuapp.com/",
-	"image": "/public/img/movies.jpg",
-	"github": "https://github.com/ibaena/Action-"
+  "title": "MoviesJQ",
+  "description": "Front end project built with Javascript, JQuery, AJAX, HTML, CSS, MaterializeCSS and TMDB api.",
+  "technologies": ["Javascript", "HTML", "CSS", "AJAX", "TMDB api"],
+  "url": "https://moviesjq.herokuapp.com/",
+  "image": "/public/img/movies.jpg",
+  "github": "https://github.com/ibaena/Action-"
 }]
